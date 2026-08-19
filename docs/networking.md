@@ -75,7 +75,7 @@ NGINX Proxy Manager runs in Docker on the Debian VM.
 Example routing path:
 
 ```text
-proxmox.peeps.cam
+proxmox.example.com
       │ DNS
       ▼
 192.168.0.16
