@@ -119,7 +119,7 @@ NGINX Proxy Manager runs on the Debian VM at `192.168.0.16` and provides interna
 Example:
 
 ```text
-proxmox.peeps.cam
+proxmox.example.com
       │ DNS
       ▼
 192.168.0.16
