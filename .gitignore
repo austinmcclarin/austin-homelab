@@ -1,0 +1,76 @@
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Credentials, tokens, and secret files
+credentials
+credentials.*
+*.credentials
+secrets
+secrets.*
+*.secret
+*.secrets
+*.token
+*.apikey
+*.api-key
+
+# SSH private keys
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*.ppk
+
+# TLS private key and bundled certificate material
+*.key
+*.pem
+*.p12
+*.pfx
+
+# VPN and tunnel credentials
+wireguard/
+*.wg.conf
+
+# Database files and exports
+*.sql
+*.dump
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup and archive files
+*.bak
+*.backup
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.zst
+vzdump-*
+
+# Logs
+*.log
+logs/
+
+# Temporary and cache files
+*.tmp
+*.swp
+*.swo
+*~
+.cache/
+tmp/
+temp/
+
+# IDE and editor metadata
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Keep sanitized examples available for documentation
+!.env.example
+!examples/**
